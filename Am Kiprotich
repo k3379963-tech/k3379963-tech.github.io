@@ -1,0 +1,352 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7;
+  color: #172033;
+  background: #ffffff;
+}
+
+
+/* Navigation */
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.navbar {
+  max-width: 1100px;
+  margin: auto;
+  min-height: 70px;
+  padding: 0 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 21px;
+  font-weight: bold;
+  color: #111827;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #172033;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #2563eb;
+}
+
+.menu-btn {
+  display: none;
+  border: none;
+  background: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+
+/* Hero */
+
+.hero {
+  min-height: 80vh;
+
+  display: flex;
+  align-items: center;
+
+  padding: 70px 20px;
+
+  background: linear-gradient(
+    135deg,
+    #eef5ff,
+    #ffffff
+  );
+}
+
+.hero-content {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.small-title {
+  color: #2563eb;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+
+.hero h1 {
+  font-size: clamp(45px, 8vw, 80px);
+  line-height: 1.1;
+  margin-bottom: 15px;
+}
+
+.hero h2 {
+  font-size: clamp(20px, 3vw, 30px);
+  margin-bottom: 20px;
+}
+
+.hero p:not(.small-title) {
+  max-width: 700px;
+  font-size: 18px;
+  color: #526071;
+}
+
+
+/* Buttons */
+
+.buttons {
+  margin-top: 30px;
+
+  display: flex;
+  gap: 15px;
+
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-block;
+
+  padding: 13px 24px;
+
+  border-radius: 10px;
+
+  font-weight: bold;
+
+  text-decoration: none;
+}
+
+.primary {
+  background: #2563eb;
+  color: white;
+}
+
+.primary:hover {
+  background: #1d4ed8;
+}
+
+.secondary {
+  color: #2563eb;
+  border: 2px solid #2563eb;
+}
+
+.secondary:hover {
+  background: #2563eb;
+  color: white;
+}
+
+
+/* Sections */
+
+.section {
+  padding: 90px 20px;
+}
+
+.gray {
+  background: #f6f8fb;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.section h2 {
+  font-size: 40px;
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+
+.section p {
+  margin-bottom: 15px;
+}
+
+
+/* Timeline */
+
+.timeline {
+  margin-top: 30px;
+
+  display: grid;
+
+  gap: 18px;
+}
+
+.timeline-item {
+  display: flex;
+
+  gap: 20px;
+
+  background: white;
+
+  padding: 25px;
+
+  border-radius: 15px;
+
+  border: 1px solid #e4e8ef;
+}
+
+.number {
+  color: #2563eb;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.timeline-item h3 {
+  margin-bottom: 5px;
+}
+
+.future {
+  margin-top: 25px;
+
+  color: #687386;
+
+  font-size: 14px;
+}
+
+
+/* Work cards */
+
+.cards {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  gap: 20px;
+
+  margin-top: 30px;
+}
+
+.card {
+  padding: 28px;
+
+  border-radius: 15px;
+
+  border: 1px solid #e4e8ef;
+
+  background: white;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+}
+
+
+/* Contact */
+
+.contact-box {
+  margin-top: 25px;
+
+  padding: 28px;
+
+  border-radius: 15px;
+
+  background: #f6f8fb;
+}
+
+.contact-box a {
+  color: #2563eb;
+  font-weight: bold;
+}
+
+
+/* Footer */
+
+footer {
+  text-align: center;
+
+  background: #111827;
+
+  color: #d8dee8;
+
+  padding: 35px 20px;
+}
+
+footer h3 {
+  color: white;
+  margin-bottom: 5px;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+
+/* Mobile */
+
+@media (max-width: 700px) {
+
+  .menu-btn {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+
+    position: absolute;
+
+    top: 70px;
+    left: 0;
+    right: 0;
+
+    background: white;
+
+    padding: 20px;
+
+    flex-direction: column;
+
+    gap: 15px;
+
+    border-bottom: 1px solid #e5e7eb;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .hero {
+    min-height: 75vh;
+  }
+
+  .section {
+    padding: 65px 20px;
+  }
+
+  .section h2 {
+    font-size: 32px;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .timeline-item {
+    padding: 20px;
+  }
+
+}
