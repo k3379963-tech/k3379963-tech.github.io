@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Enock Kiprotich | Official Website</title>
+
+  <meta name="description" content="Official website of Enock Kiprotich, web designer and digital entrepreneur in Nairobi, Kenya.">
+  <meta name="author" content="Enock Kiprotich">
+  <meta name="robots" content="index, follow">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <a href="#home" class="logo">Enock Kiprotich</a>
+
+      <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#history">My History</a>
+        <a href="#work">My Work</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+
+  <!-- Home -->
+  <section id="home" class="hero">
+
+    <div class="hero-content">
+
+      <p class="small-title">WELCOME TO MY OFFICIAL WEBSITE</p>
+
+      <h1>Enock Kiprotich</h1>
+
+      <h2>Web Designer & Digital Entrepreneur</h2>
+
+      <p>
+        Welcome to my official website. Here you can learn about me,
+        my journey, my work, my digital projects and how to contact me.
+      </p>
+
+      <div class="buttons">
+        <a href="#about" class="btn primary">About Me</a>
+        <a href="#contact" class="btn secondary">Contact Me</a>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- About -->
+  <section id="about" class="section">
+
+    <div class="container">
+
+      <p class="small-title">ABOUT ME</p>
+
+      <h2>Who is Enock Kiprotich?</h2>
+
+      <p>
+        My name is <strong>Enock Kiprotich</strong>. I am a web designer
+        and digital entrepreneur interested in websites, digital technology
+        and online business.
+      </p>
+
+      <p>
+        I work on digital projects and help individuals and small businesses
+        establish a professional presence online.
+      </p>
+
+      <p>
+        This website serves as my official online profile where people can
+        learn about my work, projects and professional journey.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- History -->
+  <section id="history" class="section gray">
+
+    <div class="container">
+
+      <p class="small-title">MY HISTORY</p>
+
+      <h2>My Journey</h2>
+
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="number">01</div>
+
+          <div>
+            <h3>Digital Skills</h3>
+
+            <p>
+              Developing practical skills in websites, digital tools
+              and online business.
+            </p>
+          </div>
+        </div>
+
+
+        <div class="timeline-item">
+          <div class="number">02</div>
+
+          <div>
+            <h3>Web Design</h3>
+
+            <p>
+              Learning and creating modern websites for individuals
+              and small businesses.
+            </p>
+          </div>
+        </div>
+
+
+        <div class="timeline-item">
+          <div class="number">03</div>
+
+          <div>
+            <h3>Digital Projects</h3>
+
+            <p>
+              Working on online projects and developing new digital
+              skills and services.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <p class="future">
+        More information about my education, achievements, projects
+        and milestones can be added here as my online profile grows.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- Work -->
+  <section id="work" class="section">
+
+    <div class="container">
+
+      <p class="small-title">MY WORK</p>
+
+      <h2>What I Do</h2>
+
+      <div class="cards">
+
+        <div class="card">
+          <h3>Website Design</h3>
+
+          <p>
+            Creating modern and mobile-friendly websites for individuals
+            and businesses.
+          </p>
+        </div>
+
+
+        <div class="card">
+          <h3>Digital Projects</h3>
+
+          <p>
+            Building and improving online projects and digital platforms.
+          </p>
+        </div>
+
+
+        <div class="card">
+          <h3>Small Business Websites</h3>
+
+          <p>
+            Helping small businesses present their services professionally
+            on the internet.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Contact -->
+  <section id="contact" class="section contact">
+
+    <div class="container">
+
+      <p class="small-title">CONTACT ME</p>
+
+      <h2>Let's Connect</h2>
+
+      <p>
+        If you would like to work with me or learn more about my projects,
+        you can contact me using the information below.
+      </p>
+
+      <div class="contact-box">
+
+        <p>
+          <strong>Business:</strong>
+          Kiprotich Web
+        </p>
+
+        <p>
+          <strong>Phone / WhatsApp:</strong>
+          <a href="tel:+254796444269">
+            0796 444 269
+          </a>
+        </p>
+
+        <p>
+          <strong>Location:</strong>
+          Nairobi, Kenya
+        </p>
+
+        <p>
+          <strong>Address:</strong>
+          Mafungano Street, opposite Afya Centre
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Footer -->
+  <footer>
+
+    <h3>Enock Kiprotich</h3>
+
+    <p>
+      Web Designer • Digital Entrepreneur
+    </p>
+
+    <p>
+      © 2026 Enock Kiprotich. All rights reserved.
+    </p>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
